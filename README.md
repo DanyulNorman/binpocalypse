@@ -1,11 +1,17 @@
 # binpocalypse 🗃️
-
+ 
 **AI-powered bin cataloging for the organizationally overwhelmed.**
-
-Binpocalypse is a workflow + ruleset that uses Claude's vision capabilities to automatically identify the contents of your storage bins from photos and generate structured inventory data — ready to import directly into BinTracker.
-
-Photograph your bins. Claude does the rest.
-
+ 
+## Origin
+ 
+I'm "neuro-spicy". My garage is full of bins. Useful things in every one of them -- I just had no idea which bin held what, so I kept buying things I already owned.
+ 
+Solutions exist. They cost money and require trusting some SaaS with my deeply important collection of spare ethernet cables and half-used caulk tubes. So I built this instead, because building something is more fun than subscribing to something, and because the problem was genuinely annoying me.
+ 
+The result is BinTracker: a self-hosted bin inventory system with a Python REST API, SQLite backend, item checkout/check-in tracking, full-text search, and a bulk import workflow powered by Claude Vision that can catalog an entire garage's worth of bins from photos in one shot.
+ 
+Photograph your bins. Claude identifies the contents. Import the JSON. Done.
+ 
 ---
 
 ## How it works
